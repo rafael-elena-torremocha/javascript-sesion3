@@ -13,10 +13,9 @@
 
 const getSurname = () => 'Elena';
 
-const getSurname2 = function() {
+const getSurnameDos = function() {
     return 'Elena';
 };
-
 
 //Another example. 
 
@@ -24,4 +23,10 @@ const suma = function(sum1, sum2) {
     return sum1 + sum2;
 };
 
-const suma2 = (sum1, sum2) => sum1 + sum2;
+const sumaDos = (sum1, sum2) => sum1 + sum2;
+const result = sumaDos(4,5);
+console.log(result);
+
+// If we return an object:
+
+const myObjt = () => ({ atribute: 'atribute', atribute: 'atribute' });
