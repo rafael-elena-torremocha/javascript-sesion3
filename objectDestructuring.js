@@ -13,7 +13,7 @@ let marvelCharacter = {
 	},
 	team: ['Avengers', 'Iluminati']
 }
- debugger
+
 // Destructuring - Ex1
 let { name, team } = marvelCharacter;
 
